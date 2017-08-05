@@ -4,7 +4,17 @@ paths:
     data: tests/_data
     support: tests/_support
     envs: tests/_envs
+settings:
+    shuffle: true
 actor_suffix: Tester
 extensions:
     enabled:
         - Codeception\Extension\RunFailed
+coverage:
+    enabled: true
+    low_limit: 60
+    high_limit: 90    
+    remote: false
+    blacklist:
+        include:
+            - tests/*
