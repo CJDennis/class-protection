@@ -22,5 +22,5 @@ just like `protected` and `private` properties.
 
 That's it!
 
-One caveat: `unset()` can still be called on public properties and delete them from the object.
-It's best to completely avoid using public properties for a robust class with locked-down behaviour.
+One caveat: `unset()` can still be called on `public` properties and delete them from the object.
+It's best to completely avoid using `public` properties for a robust class with locked-down behaviour.
